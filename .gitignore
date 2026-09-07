@@ -1,0 +1,12 @@
+.DS_Store
+Thumbs.db
+*.log
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Dependencies and generated output
+node_modules/
+_site/
