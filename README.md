@@ -25,8 +25,12 @@ Push this project to the `main` branch of a GitHub repository and select **Setti
 
 ## Behavior
 
-There are no contact forms, email links, booking features, analytics, or tracking storage. The showcase does not accept enquiries or collect personal information through forms.
+The contact-form demonstration contains prefilled fictional data and showcases default, valid, invalid, disabled, and focus-preview states. Native input validation and CSS update feedback when examples are edited. The standalone controls have no HTML form submission context, JavaScript handler, or storage. The send button is disabled. There are no email links, booking features, analytics, or tracking storage.
 
 The hero dot and mascot animate using CSS. The partner-logo strip pauses on hover. Reduced-motion preferences disable animations and show a static logo grid. Service cards use native grouped disclosures and CSS expansion transitions. Result-card entrances follow scroll position. Older browsers display content with simpler motion fallbacks.
 
 All review and case content is available with JavaScript disabled. JavaScript only coordinates accessible selection and mobile navigation. The original brand-reference files and font licensing notices remain as source documentation.
+
+## Interface icons
+
+UI icons use Google Material Icons (Outlined), from https://github.com/google/material-design-icons, under Apache 2.0. Only the selected SVG artwork is embedded in the HTML, with `currentColor` styling and decorative accessibility attributes. No icon font, JavaScript library, or external requests are needed. The license is included in `assets/Material-Icons-LICENSE.txt`. Brand graphics and client logos remain separate from interface icons.
